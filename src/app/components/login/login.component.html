@@ -1,9 +1,9 @@
 
 <div class="wrapper">
     <div class="container">
-        <button class="headbtn1" id="userbtn">user</button>
+        <button class="headbtn1" id="userbtn">User</button>
         <button class="headbtn2" id="professorbtn">Professor</button>
-        <button class="headbtn3" id="adminbtn">admin</button>
+        <button class="headbtn3" id="adminbtn">Admin</button>
       <div class="user-login-form">
        <h2 class="textual">User Login</h2>
         <form #userloginform="ngForm" (ngSubmit)="loginUser()">
@@ -40,16 +40,6 @@
           <button [disabled]="userloginform.form.invalid" type="submit" class="btn loginbtn">Login</button>
         </form>
         <div class="sign-up" style=" text-align: center; margin-top: 10px;">Don't have an Account? <small [routerLink]="['/registration']" style="color: navy; text-align: center; cursor: pointer;"><b>Create One</b></small></div>
-        <hr>
-        <p class="text-center mt-3"><b> or Login with </b></p>
-            <div class="text-center">
-              <i class="fa fa-google  mx-3 fa-2x"></i>
-              <i class="fa fa-linkedin mx-3 fa-2x"></i>
-              <i class="fa fa-twitter  mx-3 fa-2x"></i>
-              <i class="fa fa-windows  mx-3 fa-2x"></i>
-              <i class="fa fa-apple fa-retro mx-3 fa-2x"></i>
-              <i class="fa fa-github  mx-3 fa-2x"></i>
-            </div>
       </div>
 
         <div class="professor-login-form">
@@ -88,16 +78,6 @@
                <button [disabled]="professorloginform.form.invalid" type="submit" class="btn loginbtn">Login</button>
              </form>
              <div class="sign-up" style=" text-align: center; margin-top: 10px;">Don't have an Account? <small [routerLink]="['/registration']" style="color: navy; text-align: center; cursor: pointer;"><b>Create One</b></small></div>
-             <hr>
-             <p class="text-center mt-3"><b> or Login with </b></p>
-            <div class="text-center">
-              <i class="fa fa-google  mx-3 fa-2x"></i>
-              <i class="fa fa-linkedin mx-3 fa-2x"></i>
-              <i class="fa fa-twitter  mx-3 fa-2x"></i>
-              <i class="fa fa-windows  mx-3 fa-2x"></i>
-              <i class="fa fa-apple fa-retro mx-3 fa-2x"></i>
-              <i class="fa fa-github  mx-3 fa-2x"></i>
-            </div>
              </div>
     
         <div class="admin-login-form">

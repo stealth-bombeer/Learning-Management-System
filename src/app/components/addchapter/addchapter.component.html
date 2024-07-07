@@ -29,7 +29,7 @@
         <input type="text" class="form-control" placeholder="enter chapter-1 URL as ID" id="chapter1idtxt" name="chapter1id" [(ngModel)]="chapter.chapter1id">
         <small style="color: gray; font-weight: bold;">Please Provide the Chapter-1 video ID as the URL here...</small>
       </div>
-      <div id="chapter1btn" style="width: 12%; cursor: pointer; margin-top: 8px; background-color: rgb(13, 68, 65); color: white; font-weight: bold; border: none; font-size: small; outline: none; padding: 5px 15px 5px 15px; border-radius: 15px;"><i class="fa fa-plus"></i> Add</div>
+      <div id="chapter1btn" style="width: 12%; cursor: pointer; margin-top: 8px; background-color: rgb(0, 0, 0); color: white; font-weight: bold; border: none; font-size: small; outline: none; padding: 5px 15px 5px 15px; border-radius: 15px;"><i class="fa fa-plus"></i> Add</div>
     </div>
 
       <div id="chapter2">
@@ -131,9 +131,9 @@
       </div>
 
      <div class="checkbox" style="margin-top: 5px;">
-      <small style="font-weight: 700; color: darkred;"><input type="checkbox" name="remember" required> whether these chapters has the valid contents related to the course </small>
+      <small style="font-weight: 700; color: rgb(0, 16, 139);"><input type="checkbox" name="remember" required> whether these chapters has the valid contents related to the course </small>
     </div>
-    <button style="margin-top: 15px;" [disabled]="addChapterform.form.invalid" type="submit" class="btn registerbtn"><i class="fa fa-plus"></i>&nbsp; Add Chapter</button>
+    <button style="margin-top: 15px;" [disabled]="addChapterform.form.invalid" type="submit" class="registerbtn"><i class="fa fa-plus"></i>&nbsp; Add Chapter</button>
   </form>
 </div>
 

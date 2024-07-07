@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Merienda+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .btn-primary
 {
-   background-color: rgb(17, 93, 95);
+   background-color: rgb(0, 0, 0);
    border-radius: 10px;
    font-weight: bold;
 }
@@ -16,8 +17,8 @@
     font-weight: bolder;
     font-size: 40px;
     margin-top: 3%;
-    color: darkgreen;
-    font-family: 'Aladin', cursive;
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
     letter-spacing: 1px;
     margin-left: 42%;
 }

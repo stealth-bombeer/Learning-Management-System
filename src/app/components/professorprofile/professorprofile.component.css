@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Merienda+One&family=Staatliches&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .register{
     background: white;
     margin-top: 0.8%;
@@ -26,8 +26,8 @@
     border: none;
     border-radius: 1.5rem;
     padding: 1%;
-    border: 1px solid #440707;
-    color: #440707;
+    border: 1px solid #000000;
+    color: #000000;
     font-weight: 600;
     font-size: 20px;
     width: 30%;
@@ -53,7 +53,7 @@
     color: #0a3d3b;
 }
 .btnRegister:hover{
-    background: #440707;
+    background: #000000;
     color: #fff;
     cursor: pointer;
 }
@@ -65,7 +65,7 @@
     letter-spacing: 1.5px;
     margin-bottom: -15%;
     font-family: 'Aladin', cursive;
-    color: #413613;
+    color: #000000;
 }
 #home-tab
 {
@@ -86,10 +86,10 @@ input{
 }
 .textual
 {
-  color: maroon; 
+  color: rgb(0, 0, 0); 
   text-align: center; 
   margin-top: 2%;
-  font-family: 'Aladin', sans-serif;
+  font-family: Raleway;
   padding: 5px;
   font-weight: bolder;
   text-transform: uppercase;
