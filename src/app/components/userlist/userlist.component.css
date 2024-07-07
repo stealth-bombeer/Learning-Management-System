@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Merienda+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .row
   {
@@ -9,11 +10,11 @@
   {
     margin-right: 5%;
     margin-bottom: 4%;
-    width: 40%;
+    width: 30%;
     border-radius: 15px;
     padding: 0px;
     transition: transform .2s;
-    box-shadow: 5px 5px 25px 8px rgb(147, 158, 147);
+    box-shadow: 5px 5px 25px 8px rgb(144, 155, 144);
   }
   #bloodCards:hover
   {
@@ -43,7 +44,6 @@
     background-color: white;
 }
 .circle{
-    background-color: rgb(22, 121, 72);
     margin-left: auto;
     margin-right: auto;
     align-content: center;
@@ -63,8 +63,8 @@
     font-weight: bolder;
     font-size: 40px;
     margin-top: 1%;
-    color: darkgreen;
-    font-family: 'Aladin', cursive;
+    color: rgb(0, 0, 0);
+    font-family:Raleway;
     letter-spacing: 1px;
     margin-left: 45%;
 }

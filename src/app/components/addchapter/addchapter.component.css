@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .container
 {
     max-width: 700px;
@@ -18,10 +16,10 @@ input{
 }
 .textual
 {
-    color: rgb(77, 72, 14); 
+    color: rgb(0, 0, 0); 
     text-align: center; 
     margin-top: -20px;
-    font-family: 'Aladin', cursive;
+    font-family: Raleway;
     padding: 5px;
     font-weight: bolder;
     font-size: 28px;
@@ -29,7 +27,7 @@ input{
 }
 label{
     margin-top: 10px;
-    font-family: 'Volkhov', serif;
+    font-family: Roboto;
     letter-spacing: 0px;
     font-size: medium;
 }
@@ -50,7 +48,7 @@ label{
 }
 .registerbtn:hover
 {
-    background-color: rgb(23, 78, 78);
+    background-color: rgb(0, 0, 0);
     padding-left: 7%;
     padding-right: 7%;
     cursor: pointer;

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Merienda+One&family=Staatliches&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .row
   {
     margin-left: 10%;
@@ -46,7 +46,6 @@
     background-color: rgb(17, 90, 85);
 }
 .circle{
-    background-color: rgb(253, 255, 138);
     margin-left: auto;
     margin-right: auto;
     align-content: center;
@@ -108,8 +107,8 @@
     font-weight: bolder;
     font-size: 40px;
     margin-top: 2%;
-    color: darkgreen;
-    font-family: 'Aladin', cursive;
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
     letter-spacing: 1px;
     margin-left: 42%;
 }
